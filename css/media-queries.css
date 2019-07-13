@@ -1,0 +1,377 @@
+@media (min-width: 1200px) and (max-width: 1920px) {
+	.search-container .form-inline .form-group {
+		width: 42%;
+		margin: 0 0.3%;
+	}
+	.option-text h2 {	
+		line-height: 333px;
+	}
+	.complete-order {
+		text-align: right;
+	}
+}
+@media (min-width: 990px) and (max-width: 1199px) {
+	.search-container .form-inline .form-group {
+		width: 41.5%;
+		margin: 0 0.3%;
+	}
+	input.submit-search[type="submit"] {
+		padding: 7px 9px 9px 38px;
+	}
+	.listing-btn {
+		font-size: 14px;
+		padding: 3px 9px;
+	}
+	.checkLocation input[type="text"] {
+		width: 100%;
+	}
+	.option-text h2 {	
+		line-height: 333px;
+	}
+	.complete-order {
+		text-align: right;
+	}
+}
+@media (max-width: 989px) {
+	.search-container h1, .search-container h1 a {
+		font-size: 2em
+	}
+	.search-container .form-inline .form-group {
+		width: 37.5%;
+		margin: 0 0.5% 0 0;
+	}
+	.testimonials:after {
+		left: 20%;
+	}
+	.listing-btn {
+		font-size: 12px;
+		padding: 3px 9px;
+	}
+	.login-form a {
+		font-size: 11px;
+	}
+	.option-text h2 {	
+		line-height: 333px;
+	}
+	.complete-order {
+		text-align: right;
+	}
+	.dashboardMenu .list-group-item {
+		font-size: 11px;
+		padding: 10px 5px 10px 5px
+	}
+	.dashboard-form label {
+		font-size: 12px;
+	}
+}
+@media (max-width: 767px) {	
+	.logo-container a img {
+		width: 224px;
+		margin: 0 auto;
+	}
+	.nav-container {
+		padding: 15px 15px 0;
+	}
+	.navbar-collapse {
+		box-shadow: none;
+	}
+	.navbar-nav {
+		text-align: center;
+		margin: 0px;
+	}
+	.navbar-collapse {
+		padding: 0;
+	}
+	.nav-container .nav li {
+		border: none;
+		display: inline-block;
+		padding: 0;
+		max-width: 55px;
+		vertical-align: top;
+	}
+	.nav-container .nav li:last-child {
+		border: none;
+	}
+	.nav-container .nav li a {
+		display: block;
+		font: normal 12px/15px "Lato",sans-serif;
+	}
+	.nav-container .nav li:hover a {
+		color: #a40700;
+	}
+	.nav-container .glyphicon {
+		background: rgba(255, 255, 255, 0.7);
+		border: 2px solid #8daf3a;		
+		color: #92b63a;		
+		font-size: 19px;
+		padding: 9px;
+		margin: 0 0 5px 0;
+		left: 0px;
+		top: 0px;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+	}
+	.nav-container .nav li:hover .glyphicon {
+		color: #ffffff !important;
+		cursor: pointer;
+		background: rgba(252, 225, 89, 0.7);
+		border: 2px solid #ffffff;
+		-webkit-box-shadow: 0 0 7px 0 rgba(252,225,89,1);
+		box-shadow: 0 0 7px 0 rgba(252,225,89,1);
+	}
+	input[type=submit].submit-search {
+		background-position: 35% -36px;
+		float: none;
+		font-size: 18px;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.welcome-container {
+		border: none;
+		margin: 0 0 20px 0;
+	}
+	.testimonials:after {
+		left: 25%;
+	}
+	.headermid {
+		position: static;
+	}
+	.footerMenu ul {
+		margin: 0 0 20px 0;
+	}
+	.footerMenu ul li:first-child {
+		display: block;
+	}
+	.footerMenu ul li {
+		display: inline-block;
+	}
+	.footerMenu ul li h5,
+	.footerpanel-four h5 {
+		margin: 0 0 5px 0;
+	}
+	.footerMenu ul li a {
+		background-color: #575757;
+		border: 1px solid #7f7f7f;
+		font-size: 11px;
+		padding: 2px 7px;
+		-webkit-border-radius: 0.45em;
+		-moz-border-radius: 0.45em;
+		border-radius: 0.45em;
+	}
+	.footer-socialmedia, .footer-newsletter {
+		text-align: center;
+	}
+	/* listing page css start */
+	.toggle-list-group {
+		display: none;
+		margin: 0 0 10px 0;
+	}
+	.filter-list h6, h6 a {
+		margin: 0 0 10px 0;
+	}
+	.breadcrumb {
+		margin: 0;
+	}
+	.cuisines-heading {
+		float: left;
+		font-size: 12px;
+		display: inline-block;
+		margin: 0 10px 0 0;
+		width: auto;
+	}	
+	.resturents-list-toggle {
+		display: inline-block;
+		position: relative;
+		margin: 0 0 9px 0;
+		font-size: 12px;
+		width: auto;
+	}
+	.resturents-list-toggle:after {
+		content: "\00bb";
+		color: #fff;
+	}
+	.resturents-list .list-group-item {
+		display: inline-block;
+		border: none;
+		padding: 0;
+	}
+	.resturents-list .list-group-item a {
+		background-color: #ffd9ac;		
+		color: #c22026;
+		padding: 3px 13px;
+		font-size: 11px;
+		margin: 0 0 7px 0;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		-khtml-border-radius: 4px;
+	}	
+	.resturents-list .list-group-item a:hover {		
+		background-color: #ff8a00;
+		color: #ffffff;
+		text-decoration: none;
+	}
+	.search-result-number {
+		font-size: 12px;
+		line-height: 34px;
+	}
+	.select-holder {
+		width: 100%;
+	}
+	.search-container .form-inline .form-group {
+		width: 100%;
+		margin: 0 0 5px 0
+	}
+	:-moz-any(.search-select):before {
+		background-color: transparent;
+	}
+	.listing-btn {
+		font-size: 12px;
+		padding: 4px 9px;
+		margin: 10px 5px 0 0;
+	}
+	.listing-rating-holder, 
+	.listing-button-holder {
+		text-align: center;
+	}
+	.listing-image {
+		border-bottom: 1px solid #d0d0ce;
+		position: relative;
+		padding: 0 0 15px 0;
+	}
+	.listing-image:before {
+		background-image: url(../img/sprite.png);
+		background-repeat: no-repeat;
+		background-position: 0 -111px;
+		content: '';
+		position: absolute;
+		bottom: -8px;
+		left: 50%;
+		margin: 0 0 0 -10.5px;
+		height: 8px;
+		width: 21px;
+	}
+	.listing-data-container {
+		border-left: none;
+		padding: 15px 15px 0;
+	}
+	.listing-data-container:before {
+		display: none;
+	}
+	/* listing page css end */
+	/* Details page css start */
+	.details-tab .nav-tabs > li {
+		float: none;
+		margin: 0 0 3px 0;
+	}	
+	.details-tab .nav-tabs > li > a {
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		-khtml-border-radius: 4px;
+	}
+	.details-tab .nav-tabs li.active a, .nav-tabs li.active a:hover, .nav-tabs li.active a:focus {		
+		border: 1px solid #b6bbc1;		
+	}
+	.details-tab .sub-tab li {
+		border-right: none;
+	}
+	.details-tab .sub-tab li.active {
+		border-bottom: 1px solid #d0d0ce;
+	}
+	.details-tab .sub-tab li.active:after {
+		background-image: url(../img/sprite.png);
+		background-repeat: no-repeat;
+		background-position: 0 -111px;
+		content: '';
+		position: absolute;
+		top: 48px;
+		left: 50%;
+		margin: 0 0 -10.5px 0;
+		height: 8px;
+		width: 21px;
+	}
+	/* Details page css end */
+	/* Register page css start */
+	.steps {
+		padding: 10px 0;
+	}
+	.steps li {
+		font-size: 14px;
+		padding: 0 7px 0 0;
+	}
+	.steps li + li:before {		
+		background-position: 0 -126px;
+	}
+	.usergetway {
+		padding: 30px 15px;
+	}
+	.registration {
+		padding: 10px;
+	}
+	.registration h1 {
+		margin: 0 0 20px 0;
+		text-align: center;
+	}
+	.loginWithFacebook {
+		padding: 10px 0;
+	}
+	/* Register page css end */
+	/* Dashboard css start */
+	.option-text h2 {	
+		line-height: 63px;
+	}
+	.complete-order {
+		text-align: left;
+	}
+	.dashboardLeftPanel {
+		height: auto !important;
+		padding: 20px 10px;
+	}
+	.list-group-item {
+		display: inline-block;
+		width: 49%;
+	}
+	.dashboardMenu a.list-group-item.active:after,
+	.dashboardMenu a.list-group-item.active:hover:after,
+	.dashboardMenu a.list-group-item.active:focus:after {
+		background-image: url(../img/sprite.png);
+		background-repeat: no-repeat;
+		background-position: 0 -255px;
+		content: "";
+		left: 50%;
+		top: 28px;
+		margin: 0 0 0 -9px;
+		position: absolute;
+		height: 8px;
+		width: 18px;
+	}
+	.dashboardContent {
+		margin: 20px 0;
+		padding: 20px 0;
+	}
+	.dashboard-form {
+		padding: 0 15px;
+	}
+	.dashboard-form label {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 0 0 0 5px;
+	}
+	.dashboard-form input,
+	.dashboard-form .select-style,
+	.dashboard-form textarea {
+		margin: 0 0 10px 0;
+	}
+	.dashboardTableContent {
+		margin: 20px 0;
+	}
+	.dashboardTableContent table tr th {
+		font-size: 14px;
+	}
+	.dashboardTableContent table tr td {
+		font-size: 12px;
+	}
+	/* Dashboard css end */		
+}
